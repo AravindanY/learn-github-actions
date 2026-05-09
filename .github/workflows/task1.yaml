@@ -1,4 +1,4 @@
-name: Task 1 - Run echo hello world
+name: Task 1 - Run echo hello Aravindan the world is yours
 
 on:
   push:
@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run hello world
-        run: echo 'hello world'
+        run: echo 'hello Aravindan the world is yours'
