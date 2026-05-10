@@ -12,5 +12,5 @@ jobs:
   hello-world-new:
     runs-on: ubuntu-latest
     steps:
-      - name: Run hello world
+      - name: Run hello world from github
         run: echo 'hello Aravindan the world is yours'
