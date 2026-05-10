@@ -2,7 +2,7 @@ name: Task 2 - Run echo hello world in specific time every day
 
 on:
   schedule:
-    - cron: "1 0 * * *" # Every one minute every day
+    - cron: "* * * * *" # Every one minute every day
 jobs:
   hello-world:
     runs-on: ubuntu-latest
