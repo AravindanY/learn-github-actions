@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run hello world
-        run: echo "The time is 9:45 AM! "
+        run: echo "The time is $(date '+%Y-%m-%d %H:%M:%S') "
