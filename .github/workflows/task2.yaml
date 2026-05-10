@@ -2,10 +2,10 @@ name: Task 2 - Run echo hello world in specific time every day
 
 on:
   schedule:
-    - cron: "1 0 * * *" # 7:00 AM every day
+    - cron: "1 0 * * *" # Every one minute every day
 jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
       - name: Run hello world
-        run: echo "The time is 7:00 AM! "
+        run: echo "The time is 9:45 AM! "
