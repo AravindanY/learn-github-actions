@@ -9,7 +9,7 @@ jobs:
   send-mail:
     runs-on: ubuntu-latest
     steps:
-      - name: Send mail
+      - name: Send mail to arydeloitte@gmail.com
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
